@@ -1,0 +1,385 @@
+/*
+* Colors used in design.
+*   primary: #0078aa; blue
+*   dark: #363636; grey
+*   light: #fff; white
+*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.home-button a{
+  text-decoration: none;
+  color: #fff;
+  background-color: #0078aa;
+  padding: 15px 20px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1% 7%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+nav {
+  width: 500px;
+  text-align: end;
+}
+
+nav a{
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  padding: 0 2%;
+}
+
+nav a:hover {
+  color:#0078aa;
+  cursor: pointer;
+}
+
+.main-banner {
+  background-image: url(/img/header_bg.jpg);
+  background-position: center;
+  height: 74vh;
+  padding: 1% 7%;
+}
+
+.main-banner-content {
+  max-width: 500px;
+  padding-top: 10%;
+}
+
+.main-banner-content p {
+  color: #909090;
+}
+
+.svg-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+}
+
+.svg-buttons i {
+  background-color: #0078aa;
+  border: 1px solid #0078aa;
+  border-radius: 50%;
+  padding: 10px;
+  color: #fff;
+}
+
+.svg-buttons i:hover {
+  color:#0078aa;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.about {
+  padding: 5% 0;
+  display: flex;
+  align-items: center;
+}
+
+.about-img img {
+  max-width: 100%;
+}
+
+.about-content {
+  margin: 5%;
+  max-width: 450px;
+}
+
+.about-content > p {
+  margin: 0;
+  font-size: 14px;
+  color:#0078aa;
+}
+
+.about h2,h4 {
+  margin: 0;
+}
+
+.about h2 {
+  font-size: 30px;
+}
+
+.about-content div {
+  margin-top: 5%;
+}
+
+.about-content div p {
+  margin: 10px 0;
+}
+
+.blue-text {
+  color:#0078aa
+}
+
+.services {
+  background-image: url(/img/services_bg.jpg);
+  padding: 3% 7%;
+}
+
+.services-title, .pricing-title {
+  text-align: center;
+}
+
+.central-title {
+  font-size: 30px;
+  margin: 0;
+}
+
+.central-sub-title {
+  font-size: 14px;
+  margin: 0;
+}
+
+.services-content-conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.services-content-conteiner > div {
+background-color: #fff;
+max-width: 23%;
+margin: 15px;
+padding: 20px;
+}
+
+.pricing {
+  padding: 3% 3%;
+
+  background-image: url(/img/pricing_bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.pricing-title {
+  margin-bottom: 40px;
+}
+
+.pricing-content {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.pricing-single-card {
+  /* max-width: 30%; */
+  padding: 3% 7%;
+  color:#fff;
+  background-color: #5ac4f1;
+  line-height: 1.5;
+}
+
+.active {
+  color:#0078aa;
+  background-color: #fff;
+  border: 1.5px solid #0078aa;
+  margin: -1% 0;
+}
+
+.pricing-single-card h5 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.pricing-single-card {
+  font-size: 14px;
+}
+
+.card-price {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.big-x {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.pricing-card-btn {
+  color: #0078aa;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  padding: 10px 15px;
+  border: 2px solid #0078aa;
+  border-radius: 10px;
+}
+
+.pricing-card-btn:hover {
+  cursor: pointer;
+  color:#fff;
+  background-color: #0078aa;
+}
+
+.contact {
+  display: flex;
+  padding: 1% 7%;
+  align-items: center;
+}
+
+.contact > div {
+  max-width: 50%;
+}
+
+.contact-img img {
+  max-width: 100%;
+}
+
+.contact-form-title h2 {
+margin-bottom: 0;
+font-size: 30px;
+}
+
+.contact-form-title p {
+font-size: 14px;
+}
+
+.form-container {
+  padding-left: 10px;
+}
+
+.form-container input {
+  border: none;
+  border-bottom: 1px solid #b1b1b1;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+::placeholder {
+  font-style: italic;
+}
+
+.submit-btn {
+  color: #fff;
+  background-color: #0078aa;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  padding: 10px 15px;
+  border: 2px solid #0078aa;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.submit-btn:hover {
+  color:#0078aa;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  background-color: #363636;
+  color: #fff;
+  padding: 7px 0;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media(max-width: 768px) {
+  .navigation, .main-banner, .services {
+    padding: 0 10px;
+  }
+
+  .about-content {
+    max-width: 400px;
+    margin-right: 0;
+  }
+
+  .pricing-content {
+    padding: 0 20px;
+  }
+}
+
+
+@media(max-width: 600px) {
+  
+  
+  .navigation {
+    display: block;
+    text-align: center;
+  }
+
+  nav {
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .about-content {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .about {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .main-banner {
+    text-align: center;
+  }
+
+  .svg-buttons {
+    margin: 0 auto;
+  }
+
+  .services-content-conteiner > div {
+    max-width: 100%;
+  }
+
+  .pricing-content {
+    flex-wrap: wrap;
+  }
+
+  .pricing-single-card {
+    width: 60%;
+    margin: 7.5px 0;
+  }
+
+  .active {
+    margin: 0;
+  }
+  
+  .contact {
+    flex-wrap: wrap;
+  }
+  .contact > div {
+    max-width: 100%;
+  }
+
+  .form-container {
+    padding-left: 0;
+    text-align: center;
+  }
+}
